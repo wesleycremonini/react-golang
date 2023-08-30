@@ -1,0 +1,5 @@
+uploads
+tmp
+docker
+.gitignore
+!.dockerignore
