@@ -5,8 +5,6 @@ import (
 	"net/http"
 )
 
-type contextKey string
-
 // recoverPanic handle panics for the application not to finish.
 func (app *application) recoverPanic(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
