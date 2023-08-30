@@ -2,6 +2,6 @@ Não é necessário instalar nada localmente, basta ter o docker e docker-compos
 ```
 git clone https://github.com/wesleycremonini/react-golang
 cd react-golang
-docker-compose up
+docker compose up
 -> http://localhost:5000
 ```
